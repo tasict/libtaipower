@@ -16,7 +16,7 @@ HOST = "service.taipower.com.tw"
 AUTH_PREFIX = "tpacct-2023"
 DATA_PREFIX = "mapp-2019"
 BASIC_AUTH = "dHBlYy13U1pvLTVDNjZTZG84ZzM6X1UyVlpZd05kWi1hTW9ILV9fZlctZ3ROR0lwVmgydy4="
-APP_VERSION = "3.2.37"
+APP_VERSION = "3.4.8"
 
 
 def _endpoint_url(api_name: str) -> str:
@@ -245,7 +245,7 @@ class CheckVersion(TaipowerConnection):
 
     def setup_payload(self, version : str):
         json_data = {
-            "version": version,
+            "appVersion": version,
         }
         return json_data
     

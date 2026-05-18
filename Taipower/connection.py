@@ -16,7 +16,7 @@ HOST = "service.taipower.com.tw"
 AUTH_PREFIX = "tpacct-2023"
 DATA_PREFIX = "mapp-2019"
 BASIC_AUTH = "dHBlYy13U1pvLTVDNjZTZG84ZzM6X1UyVlpZd05kWi1hTW9ILV9fZlctZ3ROR0lwVmgydy4="
-APP_VERSION = "3.0.6"
+APP_VERSION = "3.2.37"
 
 
 def _endpoint_url(api_name: str) -> str:
